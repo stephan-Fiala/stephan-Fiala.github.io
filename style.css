@@ -50,6 +50,16 @@ h2::first-letter {
 /* Navbar styles */
 nav {
   display: block;
+  background-color: rgb(255, 255, 255, .8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nav a{
+  color: rgb(0, 0, 0);
+  margin-right: 15px;
+  padding: 5px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
 }
 /* Hero styles */
 .hero{
@@ -80,6 +90,11 @@ main{
   margin-right: auto;
   margin-left: auto;
   display: block;
+}
+
+#about, #intro, #footer, .footer{
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 hr{
