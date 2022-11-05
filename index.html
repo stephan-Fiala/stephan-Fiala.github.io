@@ -1,90 +1,94 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephan Fiala</title>
+    <meta name="description" content="My portfolio">
+    <meta name="author" content="Stephan Fiala">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Stephan Fiala</title>
-  <link 
-href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    rel="stylesheet"
-    type="text/css"
-  />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+    <!-- Adding external CSS files -->
+    <!-- Adding CSS resets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Adding global styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
 <body>
-
   <header>
-    <div>
+    <!-- Adding navigation -->
+    <nav>
+      <!-- Adding ancors to sections on the page using id selectors -->
+      <a href="#intro">Intro</a>
+      <a href="#about">About</a>
+      <a href="#footer">Footer</a>
+    </nav>
+
+    <!-- Adding hero -->
+    
+    <section class="hero">
+      <img src="pic.jpg" alt="profile picture"> 
       <h1>Stephan Fiala</h1>
-      <p id="sub-title">A <em>Jack</em> of Trades</p>
-      
-      <nav>
-        <img scr="profil.jep" alt="profile picture">
-          
-      </nav>
-    </div>
+      <h2 id="sub-title">A <em>Jack</em> of Trades</h2>
+    </section>
+
   </header>
+
   <main>
     <div>
-      <article  id="intro">
+      <!------------- hr content divider for about section-------------->
+      <hr>
+      <article id="intro">
         <section>
-        <h2>Intro</h2>
-        <p></p>
+          <h2>Intro</h2>
+          <p>Regarding software development, I am fascinated by the concept of emergence. Take the broken-down bits and pieces and then build something new and unique. This ability to codify and quantize information into building new structures lets us surpass the perceived limitations of constituent elements. Much like letters and characters are rearranged into the creation of language, sonnets, and songs! With code, not only do we get to aid in communication, but in this digital world, honestly, if the sky is the limit, then why are their footprints on the moon!</p>
         </section>
       </article>
- <!------------- hr content divider-------------->
-      <hr>
-      <article id="about">
-        <section>
-          <h2>About Me</h2>
-          <p></p>
-<!------------- hr content divider-------------->
-          <hr class="list-divider">
-          <h2>just some facts</h2>
-          <h3>Some of the places Ive lived</h3>   
-              <ul>
-            <li>Queens, New York</li>
-            <li>Los Angeles, California</li>
-            <li>Charlote, North Carolina</li>
-            <li>San Antonio, Texas</li>
-            <li>San Diego, California</li>
-            <li>Stuttgart, Germany</li>
-          </ul>
-<!------------- hr content divider-------------->
-          <hr  class="list-divider">
-          
-          <h3>Subjects of study</h3>
-              <ol>
-            <li>Software Devolopment</li>
-            <li>Emergency Medicine</li>
-            <li>Neroscience</li>
-            <li>Physics</li>
-             <li>Psycology</li>
-          </ol>
-        </section>
-      </article>
+        <!------------- hr content divider for about section-------------->
+        <hr>
+        <article id="about">
+          <section>
+            <h2>About Me</h2>
+            <p>Where to start? Well, nearly 14 billion years ago, it all started, and well, to make a long story short, now we're here. Me trying to feed my numerous art passions while also spending time trying to educate myself and, of course, striving up that hill of self-improvement! I am an explorer of life, which means learning anything and everything I can. It never fails to amaze me the interconnectedness of everything. The unique experiences of everyone leads to the parallel understanding that gives rise to the spectrums that weave together in this great big ball of timey-wimey stuff!</p>
+          </section>
 
- <!------------- hr content divider-------------->
-      <hr>
-      <article class="footer">
-      <h2>Contact Me</h2>
-      <p>"When the Sun is high in the after noon sky..." realiztically though i am always interested in meeting people and learning new things! You can reach me at ########## texting is better but I do check my voice mail. or buy email at <a href="mailto:someone@example.com">email me</a>
+          <section>
+              <h3>Just some facts:</h3>
+              <div class="list-divider">
+                <h3>Some of the places Ive lived</h3>   
+                <ul>
+                  <li>Queens, New York</li>
+                  <li>Los Angeles, California</li>
+                  <li>Charlote, North Carolina</li>
+                  <li>San Antonio, Texas</li>
+                  <li>San Diego, California</li>
+                  <li>Stuttgart, Germany</li>
+                </ul>
+              </div>
+          </section>
+     
+          <section>
+                <div class="list-divider">
+                  <h3>Subjects of study</h3>
+                  <ol>
+                    <li>Software Devolopment</li>
+                    <li>Emergency Medicine</li>
+                    <li>Neroscience</li>
+                    <li>Physics</li>
+                    <li>Psycology</li>
+                  </ol>
+                </div>
+          </section>
+        </article>
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        ******************@******.com</p>
-      </article>      
-    </div>
+        <!------------- hr content divider for footer section-------------->
+        <hr>
+        <article class="footer">
+          <h2>Contact Me</h2>
+          <p>"When the Sun is high in the after noon sky..." realiztically though i am always interested in meeting people and learning new things! You can reach me at ########## texting is better but I do check my voice mail. or buy email at <a href="mailto:someone@example.com">email me</a>
+            <a href="">Linkedin</a></p>
+        </article>  
+    </div> 
   </main>
 
   <footer>
@@ -93,9 +97,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     </div>
   </footer>
   
-  
-  
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
