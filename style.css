@@ -1,41 +1,123 @@
+/* -------------Global styles-------------*/
 body{
-  background: rgba(98, 78, 254, .1);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Centering all the text on the page */
   text-align: center;
+
+  /* Default font styles */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Gradient background */
+  background: rgb(249,253,254);
+  background: -moz-linear-gradient(0deg, rgba(249,253,254,1) 0%, rgba(47,152,230,0.9475140397956058) 36%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(249,253,254,1) 0%, rgba(47,152,230,0.9475140397956058) 36%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(0deg, rgba(249,253,254,1) 0%, rgba(47,152,230,0.9475140397956058) 36%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9fdfe",endColorstr="#000000",GradientType=1);
 }
 
-#sub-title{
-  bottom: #ff0000;
-  
-}
 h1{
     font-size: 40px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top:10px;
+}
 
+p{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  background-color: red;
+}
+
+/* First letter of every h2 stylings*/
+h2::first-letter {
+  color: #603F8B;
+  font-size: xx-large;
+}
+
+/* list items bullet stylings*/
+::marker {
+  color: #8155BA;
+}
+
+
+/* -------------Header styles-------------*/
+/* Navbar styles */
+nav {
+  display: block;
+}
+/* Hero styles */
+.hero{
+  background-color: rgba(255,255,255, .3);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 960px;
+
+  /* Centering on page */
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+#sub-title{
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* -------------Main styles-------------*/
+/* Containing main content and centering it on the page */
+main{
+  background-color: rgba(255,255,255, .3);
+  max-width: 960px;
+
+  /* Centering on page */
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+hr{
+  border-top-width: 3px;
+}
+
+.list-divider{
+  width: 75%;
+
+  /* Centering on page */
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+  /* Border styles */
+  border-top-color: #000;
+  border-top-style: solid;
+  border-top-width: 2px;
+}
+
+ul, ol{
+  display: inline-block;
 }
 
 ol {
    list-style-type: upper-roman;
 }
+li{
+  text-align: left;
+}
 
+
+/* -------------Footer styles-------------*/
 footer {
   background: #000000;
   color:#ffffff;
-  height: 150px;
   bottom: #ff0000;
 }
- p {
-  padding: 40px;
-  margin: 30px;
-}
-
-hr.list-divider {
-  width: 40px;
-  
-}
-
-  
 a #footer {
-  margin: 30px;
+  margin: 30px;
 }
-
-
